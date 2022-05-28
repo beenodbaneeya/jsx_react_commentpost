@@ -59,7 +59,7 @@ export default () => {
            <Route path = "/list">
                <Search />
            </Route>
-           <Route path="/dropdown">
+           <Route path = "/dropdown">
                <Dropdown
                 label="Select a color"
                 options={options}

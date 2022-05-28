@@ -4,7 +4,7 @@ import React, { useEffect, useState, useRef } from "react";
 //dropdown banda garnu parxa addEventListener garepaxi
 //natra bhane ref banda bhayesi null lai call garxa ani error
 //auxa.So clean up function lekhna parxa
-const Dropdown = ({ label,options, selected, onSelectedChange }) => {
+const Dropdown = ({ label, options , selected, onSelectedChange }) => {
     const [open, setOpen] = useState(false);
     const ref = useRef();
 
