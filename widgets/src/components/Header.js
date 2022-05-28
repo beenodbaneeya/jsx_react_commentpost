@@ -10,7 +10,7 @@ const Header = () => {
             <Link href="/list" className="item">
                 Search
             </Link>
-            <Link href="/dropdpwn" className="item">
+            <Link href="/dropdown" className="item">
                 Dropdown
             </Link>
             <Link href="/translate" className="item">
