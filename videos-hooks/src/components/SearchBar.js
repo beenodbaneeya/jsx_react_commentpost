@@ -14,7 +14,7 @@ const SearchBar = ({ onFormSubmit }) => {
             <form onSubmit={onSubmit} className="ui form">
                 <div className="field">
                     <label>
-                        Search For a Video
+                        Search For a Awesome Video
                     </label>
                     <input 
                         type="text" 
